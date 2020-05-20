@@ -1,0 +1,9 @@
+@import "./__logo/header__logo.css";
+
+.header {
+    width: 320px;
+    height: auto;
+    display: flex;
+    border-bottom: solid 1px #545454;
+    padding: 28px 0 32px 0;
+  }
