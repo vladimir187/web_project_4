@@ -2,7 +2,6 @@
 
 .header {
     display: flex;
-    border: solid red 1px;
     border-bottom: solid 1px #545454;
     padding: 28px 0 32px 0;
   }
