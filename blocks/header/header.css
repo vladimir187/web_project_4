@@ -9,6 +9,7 @@
 
 @media screen and (min-width: 375px) {
   .header {
+    /* Width: 19px side gaps with dynamic width */
     width: calc(100% - 38px);
     margin: auto;
   }
@@ -16,6 +17,7 @@
 
 @media screen and (min-width: 768px) {
   .header {
+    /* Width: 882px content-width divided by 1280 res */
     width: 69vw;
     padding: 45px 0 41px 0;
   }
