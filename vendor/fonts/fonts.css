@@ -1,6 +1,3 @@
-/* I checked in the Firefox developer tools and the "Inter" font is underlined. Hope this
-resolves the earlier issue with the fonts not displaying */
-
 @font-face {
     src: url('./Inter-Regular.woff2') format("woff2"),
          url('./Inter-Regular.woff') format("woff");

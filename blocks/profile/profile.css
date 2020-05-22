@@ -1,0 +1,21 @@
+@import "./__title/profile__title.css";
+@import "./__text/profile__text.css";
+@import "./__name/profile__name.css";
+@import "./__info/profile__info.css";
+@import "./__image/profile__image.css";
+
+.profile {
+    margin: 42px auto 36px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 38px);
+    border: 1px solid red;
+}
+
+@media screen and (min-width: 768px) {
+    .profile {
+        width: 69vw;
+    }
+}
