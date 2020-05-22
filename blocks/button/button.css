@@ -1,5 +1,6 @@
 @import "./__action-edit/button__action-edit.css";
 @import "./__action-add/button__action-add.css";
+@import "./__action-like/button__action-like.css";
 
 .button {
     display: flex;

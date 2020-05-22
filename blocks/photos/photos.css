@@ -1,0 +1,13 @@
+@import "./__title/photos__title.css";
+@import "./__photo/photos__photo.css";
+@import "./__item/photos__item.css";
+@import "./__grid/photos__grid.css";
+@import "./__footer/photos__footer.css";
+
+.photos {
+    width: calc(100% - 38px);
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+}
