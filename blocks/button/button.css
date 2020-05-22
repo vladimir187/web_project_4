@@ -1,2 +1,13 @@
-@import "../blocks/button/__action-add/button__action-add.css";
-@import "../blocks/button/__action-edit/button__action-edit.css";
+@import "./__action-edit/button__action-edit.css";
+@import "./__action-add/button__action-add.css";
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+  }
+  
+  .button:hover {
+    opacity: .8;
+  }
