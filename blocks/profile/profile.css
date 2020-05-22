@@ -3,6 +3,7 @@
 @import "./__name/profile__name.css";
 @import "./__info/profile__info.css";
 @import "./__image/profile__image.css";
+@import "./__grid/profile__grid.css";
 
 .profile {
     margin: 42px auto 36px auto;
@@ -11,11 +12,13 @@
     justify-content: center;
     align-items: center;
     width: calc(100% - 38px);
-    border: 1px solid red;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
     .profile {
         width: 69vw;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 }
