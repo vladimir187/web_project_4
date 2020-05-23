@@ -1,0 +1,12 @@
+.button__action-like {
+    width: 20.76px;
+    height: 18.13px;
+    background:  #FFFFFF;
+    background-image: url('../../../images/heart-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    margin-top: 31px;
+    margin-right: 22px;
+  
+}

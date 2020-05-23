@@ -6,7 +6,7 @@
 @import "./__grid/profile__grid.css";
 
 .profile {
-    margin: 42px auto 36px auto;
+    margin: 42px auto 51px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
