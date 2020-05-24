@@ -15,7 +15,7 @@
       <main class="content">
       <!-- Profile -->
       <section class="profile">
-        <img src="/images/jc.jpg" alt="Jacques Cousteau" class="profile__image"/>
+        <img src="./images/jc.jpg" alt="Jacques Cousteau" class="profile__image">
             <div class="profile__grid">
               <h2 class="profile__name">Jacques Cousteau</h2>
               <button class="button button__action-edit"></button>
@@ -75,13 +75,13 @@
     <section class="footer">
       <p class="footer__copyright">&copy; 2020 Around The U.S.</p>
     </section>
-<section class="modal">
+<section id="editModal" class="modal">
   <div class="modal__content">
     <button class="button button__action-close" type="reset"></button>
       <h2 class="modal__title">Edit profile</h2>
       <form action="#" class="modal__form">
-        <input class="modal__input" type="text" placeholder="Name">
-        <input class="modal__input" type="text" placeholder="Title">
+        <input class="modal__input modal__input_type_name" type="text" placeholder="Name">
+        <input class="modal__input modal__input_type_title" type="text" placeholder="Title">
         <button class="button button__action-submit" type="submit" value="Save">Save</button>
     </form>
   </div>
@@ -102,6 +102,6 @@
   </div>
 </section>-->
     </main>    
-    <script src="" async defer></script>
+    <script src="./scripts/script.js"></script>
     </body>
 </html>

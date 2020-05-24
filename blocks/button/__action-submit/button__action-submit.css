@@ -1,5 +1,5 @@
 .button__action-submit {
-    margin-top: 48px; 
+    margin: 18px 36px 36px 36px; 
     width: 358px;
     height: 50px;
     color:  #FFFFFF;
@@ -15,6 +15,8 @@
     .button__action-submit {
       height: 20px;
       font-size: 12px;
+      width: 187px;
+      margin-top: 5px;
     }
   }
   
