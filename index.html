@@ -12,6 +12,7 @@
       <header class="header">
           <img src="images/header_logo_white.svg" alt="Around the US" class="header__logo">
       </header>
+      <main class="content">
       <!-- Profile -->
       <section class="profile">
         <img src="/images/jc.jpg" alt="Jacques Cousteau" class="profile__image"/>
@@ -74,7 +75,32 @@
     <section class="footer">
       <p class="footer__copyright">&copy; 2020 Around The U.S.</p>
     </section>
-    <main class="content">
+<section class="modal">
+  <div class="modal__content">
+    <button class="button button__action-close" type="reset"></button>
+      <h2 class="modal__title">Edit profile</h2>
+      <form action="#" class="modal__form">
+        <input class="modal__input" type="text" placeholder="Name">
+        <input class="modal__input" type="text" placeholder="Title">
+        <button class="button button__action-submit" type="submit" value="Save">Save</button>
+    </form>
+  </div>
+</section>
+    <!-- <form action="" class="form">
+      <label>
+        Name
+        <input type="text" class="form__input" value="">
+      </label>
+      <label>
+        Title
+        <input type="text" class="form__input" value="">
+      </label>
+      <input type="submit" value="">
+      <button class="" type="submit">Save</button>
+    </form>
+    <button class="modal__button">Close Me</button>
+  </div>
+</section>-->
     </main>    
     <script src="" async defer></script>
     </body>
