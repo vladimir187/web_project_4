@@ -1,7 +1,7 @@
-.modal__visible {
+.modal.modal__visible { 
+    /*Had to use selector specificity in order to get the Modal to work. */
     display: flex;
     opacity: 1;
-    visibility: visible;
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
