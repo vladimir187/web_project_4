@@ -1,5 +1,6 @@
 const editButton = document.querySelector('.button__action-edit');
 const closeButton = document.querySelector('.button__action-close');
+
 const modal = document.querySelector('.modal');
 const form = document.querySelector('.modal__form');
 
