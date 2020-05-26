@@ -5,6 +5,11 @@
     font-weight: 900;
     margin-left: 21px;
     margin-top: 25px;
+    /*Below code for text overflow*/
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 150px;
 }
 
 @media screen and (min-width: 590px) {
@@ -28,6 +33,7 @@
 @media screen and (min-width: 1280px) {
     .photos__title {
         font-size: 24px;
+        max-width: 220px;
     }
 }
 
