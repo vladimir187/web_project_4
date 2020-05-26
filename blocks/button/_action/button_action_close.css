@@ -1,4 +1,4 @@
-.button__action-close {
+.button_action_close {
     background-image: url('../../../images/close-icon.svg');
     background-size: contain;
     background-color: transparent;
@@ -14,7 +14,7 @@
   
 
   @media screen and (max-width: 768px) {
-    .button__action-close {
+    .button_action_close {
       margin-left: 125px;
       margin-top: -125px;
       width: 30px;  

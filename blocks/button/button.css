@@ -1,8 +1,8 @@
-@import "./__action-edit/button__action-edit.css";
-@import "./__action-add/button__action-add.css";
-@import "./__action-like/button__action-like.css";
-@import "./__action-close/button__action-close.css";
-@import "./__action-submit/button__action-submit.css";
+@import "./_action/button_action_add.css";
+@import "./_action/button_action_close.css";
+@import "./_action/button_action_edit.css";
+@import "./_action/button_action_like.css";
+@import "./_action/button_action_submit.css";
 
 .button {
     display: flex;

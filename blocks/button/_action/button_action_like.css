@@ -1,4 +1,4 @@
-.button__action-like {
+.button_action_like {
     width: 20.76px;
     height: 18.13px;
     background:  #FFFFFF;
@@ -8,5 +8,4 @@
     border: none;
     margin-top: 31px;
     margin-right: 22px;
-  
 }
