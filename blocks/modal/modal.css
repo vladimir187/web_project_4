@@ -2,7 +2,7 @@
 @import "./__content/modal__content.css";
 @import "./__input/modal__input.css";
 @import "./__form/modal__form.css";
-@import "./__visible/modal__visible.css";
+
 
 .modal {
     display: none;
