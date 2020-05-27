@@ -3,4 +3,7 @@
     color: white;
     font-family: "Inter", sans-serif;
     margin: 0 auto;
+    /*I thought the max width of the content was 882px, based on the Figma design, but leaving
+    it at 1200px according to the review feedback */
+    max-width: 1200px;
 }
