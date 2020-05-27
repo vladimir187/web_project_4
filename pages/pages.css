@@ -7,4 +7,4 @@
 @import "../blocks/photos/photos.css";
 @import "../blocks/footer/footer.css";
 @import "../blocks/modal/modal.css";
-@import "../blocks/modal-visible/modal-visible.css";
+@import "../blocks/modal/_visible/modal_visible.css";

@@ -11,7 +11,7 @@ const userName = document.querySelector('.profile__name');
 const userTitle = document.querySelector('.profile__title');
 
 const toggleModal = () => {
-    modal.classList.toggle('modal-visible');
+    modal.classList.toggle('modal_visible');
     nameInput.value = userName.textContent;
     titleInput.value = userTitle.textContent;
 }

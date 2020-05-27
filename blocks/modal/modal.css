@@ -2,6 +2,7 @@
 @import "./__content/modal__content.css";
 @import "./__input/modal__input.css";
 @import "./__form/modal__form.css";
+@import "./_visible/modal_visible.css";
 
 
 .modal {

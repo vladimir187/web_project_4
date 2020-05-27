@@ -1,4 +1,4 @@
-.modal-visible { 
+.modal_visible { 
     display: flex;
     opacity: 1;
     transform: scale(1.0);
