@@ -14,9 +14,14 @@
     width: calc(100% - 38px);
 }
 
+@media screen and (min-width: 1024px) {
+    .profile {
+        max-width: 882px;
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .profile {
-        width: 69vw;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
